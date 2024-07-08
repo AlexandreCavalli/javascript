@@ -1,2 +1,0 @@
-# javascript
- Codigos em javascript

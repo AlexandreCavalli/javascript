@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multa</title>
+</head>
+<body>
+    <h1>Como saber se você é brasilerio!</h1>
+    Qual seu nome? <input type="text" name="" id="nome">
+    <input type="submit" value="enviar" onclick="clicar()">
+    <div id="resposta">
+
+    </div>
+    
+            
+            
+
+<script>
+    function clicar () {
+    var digitando = window.document.getElementById('nome')
+    var submit = window.document.getElementById('resposta')
+    submit.innerHTML = `Seu nome é ${digitando.value}`
+    if (digitando.value == 'Alexandre') {
+        submit.innerHTML = `Seu nome é brasileiro, `
+        submit.innerHTML += `Então você é brasileiro`
+    } else {
+        submit.innerHTML = `Você não é brasileiro`
+    }
+
+    }
+    
+
+</script>
+       
+</body>
+</html>
