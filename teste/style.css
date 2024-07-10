@@ -1,0 +1,34 @@
+body {
+    background-color: rgba(0, 0, 255, 0.514);
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+}
+
+section {
+    width: 500px;
+    
+    background-color: white;
+    margin: auto;
+}
+
+footer > p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
