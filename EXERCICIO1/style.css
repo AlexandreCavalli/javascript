@@ -1,0 +1,39 @@
+
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+body {
+    background-color: rgba(41, 41, 190, 0.452);
+}
+
+section {
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+
+
+div > input {
+    margin-top: 16px;
+    
+}
+
+div#res {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    padding: 15px;
+    
+}
+
+
+
+
