@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 5px;
+}
+
+div#res {
+    padding: 15px;
+}
